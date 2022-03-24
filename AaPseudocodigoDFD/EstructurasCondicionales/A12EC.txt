@@ -1,0 +1,21 @@
+Entorno:
+variable entera sueldo
+variable entera antiguedad
+variable entera sueldoapagar
+Inicio:
+Mostrar "Introduzca el salario"
+Leer sueldo
+Mostrar "Introduzca los años de antiguedad"
+Leer antiguedad
+Si sueldo<500 y antiguedad>=10 Entonces
+    sueldoapagar=(sueldo*20/100)+sueldo
+    Mostrar sueldoapagar
+    Si sueldo<500 y antiguedad<10 Entonces
+        sueldoapagar=(sueldo*5/100)
+        Mostrar sueldoapagar
+        Si sueldo>=500
+            Mostrar sueldo
+        Fin Si
+    Fin Si
+Fin Si
+Fin

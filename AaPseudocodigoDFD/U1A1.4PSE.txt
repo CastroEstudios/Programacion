@@ -1,0 +1,9 @@
+Entorno:
+Variable entera: Contador
+Inicio:
+Contador=0
+Mientras Contador<10 Entonces
+    Mostrar "Hola"
+    Contador++
+Fin Mientras
+Fin

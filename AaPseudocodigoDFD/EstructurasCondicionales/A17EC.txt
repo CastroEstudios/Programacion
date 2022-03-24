@@ -1,0 +1,44 @@
+Entorno:
+variable float numeromes
+Inicio:
+Si numeromes>=1 y numeromes<=12 Entonces
+    Si numeromes=1
+        Mostrar "Enero"
+        Si numeromes=2
+            Mostrar "Febrero"
+            Si numeromes=3
+                Mostrar "Marzo"
+                Si numeromes=4
+                    Mostrar "Abril"
+                    Si numeromes=5
+                        Mostrar "Mayo"
+                        Si numeromes=6
+                            Mostrar "Junio"
+                            Si numeromes=7
+                                Mostrar "Julio"
+                                Si numeromes=8
+                                    Mostrar "Agosto"
+                                    Si numeromes=9
+                                        Mostrar "Septiembre"
+                                        Si numeromes=10
+                                            Mostrar "Octubre"
+                                            Si numeromes=11
+                                                Mostrar "Noviembre"
+                                                Si numeromes=12
+                                                    Mostrar "Diciembre"
+                                                    Si No Entonces
+                                                        Mostrar "Error"
+                                                Fin Si
+                                            Fin Si
+                                        Fin Si
+                                    Fin Si
+                                Fin Si
+                            Fin Si
+                        Fin Si
+                    Fin Si
+                Fin Si
+            Fin Si
+        Fin Si
+    Fin Si
+Fin Si
+Fin

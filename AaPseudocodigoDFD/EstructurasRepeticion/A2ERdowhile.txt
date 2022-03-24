@@ -1,0 +1,13 @@
+Entorno:
+Variable entera identificador
+Variable entera contrasenia
+Inicio:
+Hacer
+    Mostrar "Introduzca su identificador"
+    Leer identificador
+    Mostrar "Introduzca su contraseña"
+    Leer contrasenia
+    Mientras identificador!==1234 o contrasenia!==1111
+Fin Hacer
+Mostrar "Identificación correcta"
+Fin

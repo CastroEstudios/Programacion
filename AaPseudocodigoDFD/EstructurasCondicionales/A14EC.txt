@@ -1,0 +1,19 @@
+Entorno:
+variable entera hora
+variable entera minutos
+variable entera segundos
+variable entera segundos2
+Inicio:
+Mostrar "Introduzca la hora"
+Leer hora
+Mostrar "Introduzca los minutos"
+Leer minutos
+Mostrar "Introduzca los segundos"
+Leer segundos
+segundos2=segundos+30
+Si segundos2>=60 Entonces
+    segundos2=segundos-60
+    minutos++
+Fin Si
+Mostrar "La hora actual es:" hora ":" minutos ":" segundos
+Fin

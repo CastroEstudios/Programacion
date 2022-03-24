@@ -1,0 +1,10 @@
+Entorno:
+Variable entera: NumUser
+Inicio:
+Pedir NumUser
+Si NumUser%2==0 Entonces
+    Mostrar "Su número es par"
+    Sino 
+    Mostrar "Su número es impar"
+Fin Si
+Fin

@@ -1,0 +1,19 @@
+Entorno:
+variable float nota1
+variable float nota2
+variable float nota3
+variable float promedio
+Inicio:
+Mostrar "Introduzca la primera nota"
+Leer nota1
+Mostrar "Introduzca la segunda nota"
+Leer nota2
+Mostrar "Introduzca la tercera nota"
+Leer nota3
+promedio=(nota1+nota2+nota3)/3
+Si promedio>=7 Entonces
+    Mostrar "Promociona"
+    Si No 
+        Mostrar "No Promociona"
+Fin Si
+Fin

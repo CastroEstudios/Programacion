@@ -1,0 +1,14 @@
+Entorno:
+variable entera anio
+Inicio:
+Mostrar "Introduzca año"
+Leer anio
+Si anio%4==0 y anio%100!==0 o anio%400==0 Entonces
+    Mostrar "El año es bisiesto"
+    Si anio%4==0 y anio%100==0 o anio%4!==0
+        Mostrar "El año no es bisiesto"
+        Si No 
+            Mostrar "Error"
+    Fin Si
+Fin Si
+Fin

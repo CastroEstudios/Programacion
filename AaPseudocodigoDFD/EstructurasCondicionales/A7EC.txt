@@ -1,0 +1,17 @@
+Entorno:
+Variable entera numero1
+Inicio:
+Mostrar "Introduzca un número"
+Leer numero1
+Si numero1<10 y numero1>-10 Entonces
+    Mostrar "Su número tiene una cifra"
+    Si numero1<=10 y numero1<100 o numero1<=-10 y numero1>-100 Entonces
+        Mostrar "Su número tiene dos cifras"
+        Si numero1>=100 y numero1<1000 o numero1<=-100 y numero>-1000 Entonces
+            Mostrar "Su número tiene tres cifras"
+        Si No
+            Mostrar "Error"
+        Fin Si
+    Fin Si
+Fin Si
+Fin

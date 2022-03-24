@@ -1,0 +1,9 @@
+Entorno:
+Variable entera: Numero1
+Variable entera: Numero2
+Inicio:
+Pedir Numero1
+Pedir Numero2
+Suma=Numero1+Numero2
+Mostrar Suma
+Fin

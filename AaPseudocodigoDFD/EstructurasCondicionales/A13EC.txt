@@ -1,0 +1,24 @@
+Entorno:
+variable entera notaalumno
+Inicio:
+Mostrar "Introduzca su nota"
+Leer notaalumno
+Si notaalumno<3 Entonces
+    Mostrar "Muy Deficiente"
+    Si notaalumno=4 Entonces
+        Mostrar "Suspenso"
+        Si notaalumno=5 Entonces
+            Mostrar "Suficiente"
+            Si notaalumno=6 Entonces
+                Mostrar "Bien"
+                Si notaalumno=7 o notaalumno=8 Entonces
+                    Mostrar "Notable"
+                    Si notaalumno=9 o notaalumno=10 Entonces
+                        Mostrar "Sobresaliente"
+                    Fin Si
+                Fin Si
+            Fin Si
+        Fin Si
+    Fin Si
+Fin Si
+Fin

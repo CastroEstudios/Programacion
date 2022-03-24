@@ -1,0 +1,17 @@
+Entorno:
+Variable entera: Contador
+Inicio:
+Contador=1
+Pedir Numero1
+Si Numero1>0 Entonces
+    Mientras Contador<=Numero1 Entonces
+        Mostrar "Contador"
+        Si Contador%2==0 Entonces
+            Mostrar "Su número es par"
+            Sino
+            Mostrar "Su número es impar"
+        Fin Si
+    Contador++
+    Fin Mientras
+Sino
+Fin

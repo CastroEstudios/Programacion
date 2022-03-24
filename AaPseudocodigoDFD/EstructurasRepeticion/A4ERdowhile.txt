@@ -1,0 +1,14 @@
+Entorno:
+Variable entera contador
+Variable 
+Inicio:
+contador=1
+Mostrar contador
+Hacer
+    Si contador%3==0 Entonces
+        Mostrar contador
+    Fin Si
+    contador++
+    Mientras contador<50
+Fin Hacer
+Fin

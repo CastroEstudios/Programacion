@@ -1,0 +1,17 @@
+Entorno:
+variable entera num1
+variable entera num2
+variable entera producto
+Inicio:
+Mostrar "Introduzca un número"
+Leer num1
+Mostrar "Introduzca otro número"
+Leer num2
+Mostrar "Introduzca el producto de los dos números"
+Leer producto
+Si producto==num1*num2 Entonces
+    Mostrar "Correcto"
+    Si No
+        Mostrar "Incorrecto"
+Fin Si
+Fin

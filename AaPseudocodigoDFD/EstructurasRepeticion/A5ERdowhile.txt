@@ -1,0 +1,16 @@
+Entorno:
+Variable entera valormenor
+Variable entera valormayor
+Variable entera contador
+Variable 
+Inicio:
+Mostrar "Introduzca el valor de inicio"
+Leer valormenor
+Mostrar "Introduzca el valor final"
+Leer valormayor
+Hacer
+    Mostrar "Introduzca un valor entre esos dos números"
+    Leer contador
+    Mientras contador<=valormayor y contador>=valormenor
+Fin Hacer
+Fin

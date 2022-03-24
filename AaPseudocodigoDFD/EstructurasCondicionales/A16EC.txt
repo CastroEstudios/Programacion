@@ -1,0 +1,21 @@
+Entorno:
+variable float cantidadproducto
+variable float precioproducto
+variable float productorebajado
+Inicio:
+Mostrar "Introduzca la cantidad del producto"
+Leer cantidadproducto
+Mostrar "Introduzca el precio del producto"
+Leer precioproducto
+Si precioproducto>60 y cantidadproducto<20 Entonces
+    productorebajado=precioproducto-(precioproducto*10/100)
+    Si cantidadproducto>=20 Entonces
+        productorebajado=precioproducto-(precioproducto*20/100)
+        Si cantidadproducto=20 y precioproducto>60 Entonces
+            productorebajado=precioproducto-(precioproducto*25/100)
+        Fin Si
+    Fin Si
+Fin Si
+Fin
+
+

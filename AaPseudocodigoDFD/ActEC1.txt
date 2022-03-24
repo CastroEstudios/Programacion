@@ -1,0 +1,17 @@
+Entorno:
+Variable entera Nota1
+Variable entera Nota2
+Variable entera Nota3
+Inicio:
+Mostrar "Introduzca la primera nota"
+Leer Nota1
+Mostrar "Introduzca la segunda nota"
+Leer Nota2
+Mostrar "Introduzca la tercera nota"
+Leer Nota3
+Si (nota1+nota2+nota3)/3>=7 Entonces
+Mostrar "Promocionado"
+Si no
+Mostrar "No ha sido promocionado"
+Fin Si
+Fin

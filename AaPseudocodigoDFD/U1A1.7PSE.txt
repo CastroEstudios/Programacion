@@ -1,0 +1,10 @@
+Entorno:
+Variable entera: Velocidad
+Variable entera: Tiempo
+Variable entera: EspacioRecorrido
+Inicio:
+Pedir Velocidad
+Pedir Tiempo
+EspacioRecorrido=Velocidad*Tiempo
+Mostrar EspacioRecorrido
+Fin

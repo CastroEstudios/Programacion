@@ -1,0 +1,16 @@
+Entorno:
+Variable entera num1
+Variable entera num2
+Variable entera incremento
+Inicio:
+Mostrar "Introduzca el valor de inicio"
+Leer num1
+Mostrar "Introduzca el valor del final"
+Leer num2
+Mostrar "Introduzca el incremento"
+Leer incremento
+Mientras num1<=num2 Entonces
+    Mostrar num1
+    num1=num1+incremento
+Fin Mientras
+Fin

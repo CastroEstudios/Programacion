@@ -1,0 +1,9 @@
+Entorno:
+Variable entera: Numero1
+Inicio:
+Pedir Numero1
+Si Numero1>=0 Entonces
+    Mostrar "Su número es positivo"
+    Sino
+    Mostrar "Su número es negativo"
+Fin

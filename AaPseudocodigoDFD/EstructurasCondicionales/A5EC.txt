@@ -1,0 +1,23 @@
+Entorno:
+Variable entera numero1
+Variable entera numero2
+Variable entera numero3
+Inicio:
+Mostrar "Introduzca un número"
+Leer numero1
+Mostrar "Introduzca otro número"
+Leer numero2
+Mostrar "Introduzca otro número"
+Leer numero3
+Si numero1>numero2 y numero1>numero3 Entonces
+    Mostrar numero1 "es el mayor"
+    Si numero2>numero1 y numero2>numero3 Entonces
+        Mostrar numero2 "es el mayor"
+        Si numero3>numero1 y numero3>numero2 Entonces
+            Mostrar numero3 "es el mayor"
+            Si No 
+                Mostrar "Error"
+        Fin Si
+    Fin Si
+Fin Si
+Fin

@@ -1,0 +1,11 @@
+Entorno:
+Variable entera Contrasenia
+Inicio:
+Mostrar "Introduzca su contraseña"
+Leer Contrasenia
+Mientras Contrasenia=!1111
+    Mostrar "Contraseña errónea, introduzca de nuevo la contraseña"
+    Leer Contrasenia
+Fin Mientras
+Mostrar "Contraseña correcta"
+Fin

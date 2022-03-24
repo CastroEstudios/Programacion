@@ -1,0 +1,13 @@
+Entorno:
+Variable string identificador
+Variable string contrasenia
+Inicio:
+Hacer
+    Mostrar "Introduzca su identificador"
+    Leer identificador
+    Mostrar "Introduzca su contraseña"
+    Leer contrasenia
+    Mientras identificador!=Pedro o contrasenia!=Peter
+Fin Hacer
+Mostrar "Identificación correcta"
+Fin

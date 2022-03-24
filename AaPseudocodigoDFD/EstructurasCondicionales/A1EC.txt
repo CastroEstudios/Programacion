@@ -1,0 +1,22 @@
+Entorno:
+variable entera numero1
+variable entera numero2
+variable entera multiplicacion
+variable float division
+Inicio:
+Mostrar "Introduzca un número"
+Leer numero1
+Mostrar "Introduzca otro número"
+Leer numero2
+Si numero1>numero2 Entonces
+    suma=numero1+numero2
+    Mostrar "La suma de sus números es:" suma
+    resta=numero1-numero2
+    Mostrar "La resta de sus números es:" resta
+Si numero2>numero1 Entonces
+    multiplicacion=numero1*numero2
+    Mostrar "La multiplicación de sus números es:" multiplicacion
+    division=numero1/numero2
+    Mostrar "La división de sus números es:" division
+Fin Si
+Fin

@@ -1,0 +1,12 @@
+Entorno:
+Variable entera num1
+Variable entera contador
+Inicio:
+contador=1
+Hacer
+num1 /= 10
+contador++
+Fin Hacer
+Mientras num1>=10
+Fin Mientras
+Fin

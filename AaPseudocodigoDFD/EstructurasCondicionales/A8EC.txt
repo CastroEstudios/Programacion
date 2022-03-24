@@ -1,0 +1,25 @@
+Entorno:
+variable entera preguntastotales
+variable entera preguntascorrectas
+variable entera porcentajepreguntas
+Inicio:
+Mostrar "Introduzca el número de preguntas totales"
+Leer preguntastotales
+Mostrar "Introduzca el número de preguntas correctas"
+Leer preguntascorrectas
+porcentajepreguntas=preguntascorrectas/preguntastotales*100
+Si porcentajepreguntas>=90 Entonces
+    Mostrar "Nivel máximo"
+    Si porcentajepreguntas>=75 y porcentajepreguntas<90 Entonces
+        Mostrar "Nivel medio"
+        Si porcentajepreguntas>=50 y porcentajepreguntas<75 Entonces
+            Mostrar "Nivel regular"
+            Si porcentajepreguntas<50 Entonces
+                Mostrar "Fuera de nivel"
+                Si No 
+                    Mostrar "Error"
+            Fin Si
+        Fin Si
+    Fin Si
+Fin Si
+Fin
